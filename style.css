@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(102, 219, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 60vh;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.container {
+}
+.appBody {
+  min-width: 300px;
+  max-width: 800px;
+  height: 150px;
+  background-color: azure;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.scoreBody {
+  width: 100px;
+  height: 40px;
+
+  display: flex;
+  margin-left: auto;
+  margin-right: 0;
+}
+.scoreText {
+  margin-right: 5px;
+}
+.scoreCount {
+  margin-top: 1px;
+}
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.answer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+}
+
+button {
+  margin: 5px;
+}
